@@ -16,8 +16,14 @@ li{
     
 }
 
+h1{
+    float: left;
+    padding: 0.5em;
+}
+
 #fname{
     float: center;
+    width: 70%;
    
 }
 
