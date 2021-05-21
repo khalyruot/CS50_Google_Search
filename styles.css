@@ -1,0 +1,17 @@
+
+div {
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-top: 10em;
+}
+
+
+
+li{
+    display: block;
+    float: right;
+    margin: 20px; 
+    
+    
+}
