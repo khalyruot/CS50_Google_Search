@@ -47,6 +47,10 @@ hr{
     color:chartreuse;
 }
 
+input{
+    padding: 0.5em;
+}
+
 h2{
     float: left; 
 }
