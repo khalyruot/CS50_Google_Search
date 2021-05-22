@@ -16,6 +16,11 @@ li{
     
 }
 
+.style{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
 h1{
     float: left;
     padding: 0.5em;
@@ -32,11 +37,16 @@ hr{
 }
 
 #word{
-    float: left;
+    text-align: left;
     padding: 0.5em;
+    
 }
 
 #button{
     background-color: blue;
     color:chartreuse;
+}
+
+h2{
+    float: left; 
 }
