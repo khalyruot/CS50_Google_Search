@@ -26,6 +26,9 @@ h1{
     padding-top: 5%;
 }
 
+h2{
+    padding: 0.5em;
+}
 #fname{
     float: center;
     width: 70%;
