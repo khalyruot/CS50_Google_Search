@@ -87,6 +87,7 @@ h2{
 
 .search_button{
     border-radius: 10px;
+    border: 0px;
     margin-right: 2em;
     margin-left: 2em;
     background-color: rgb(240, 235, 235);
@@ -100,6 +101,7 @@ h2{
 
 .Lucky_button{
     border-radius: 10px;
+    border: 0px;
     margin-right: 2em;
     margin-left: 2em;
     background-color: rgb(240, 235, 235);
@@ -110,3 +112,66 @@ h2{
     background-color: #e4f1e5;
     color: rgb(36, 23, 23);
 }
+
+@media only screen and (max-width: 800px) {
+    img{
+        width: 15em;
+        height: 5em;
+    }
+    #button{
+        background-color: blue;
+        color:white;
+        padding: 0.5em;
+        border-radius: 5px;
+    }
+
+    #fname{
+        float: center;
+        width: 90%;
+        border-radius: 5px;   
+    }
+
+    .search{
+        border-radius: 15px;
+        border: 1px solid #d1e0bb;
+        padding: 10px;
+        width: 350px;
+        height: 35px;
+    }
+
+    .search_button{
+        border-radius: 5px;
+        border: 0px;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        background-color: rgb(240, 235, 235);
+        color: rgb(36, 23, 23);
+    }
+
+    .Lucky_button{
+        border-radius: 10px;
+        border: 0px;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        background-color: rgb(240, 235, 235);
+        color: rgb(36, 23, 23);
+    }
+
+    #fname{
+        float: center;
+        width: 90%;
+        height:35px;
+        border-radius: 5px;
+       
+    }
+    .style{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    h2{
+        padding: 0em;
+    }
+
+    
+  }
