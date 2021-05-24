@@ -29,6 +29,10 @@ h1{
 h2{
     padding: 0.5em;
 }
+img{
+    width: 30em;
+    height: 10em;
+}
 #fname{
     float: center;
     width: 70%;
